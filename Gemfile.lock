@@ -1,0 +1,33 @@
+PATH
+  remote: .
+  specs:
+    rulers (0.0.2)
+      erubis
+      multi_json
+      rack
+      sqlite3
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    erubis (2.7.0)
+    minitest (5.14.2)
+    multi_json (1.15.0)
+    rack (2.2.3)
+    rack-test (1.1.0)
+      rack (>= 1.0, < 3)
+    rake (10.5.0)
+    sqlite3 (1.4.2)
+
+PLATFORMS
+  x64-mingw32
+
+DEPENDENCIES
+  bundler (~> 2.0)
+  minitest
+  rack-test
+  rake (~> 10.0)
+  rulers!
+
+BUNDLED WITH
+   2.0.1
